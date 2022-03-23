@@ -2,12 +2,16 @@
 
 Now execute FFmpeg commands on your Android smartphone.
 This app is based on MobileFFmpeg.
+
 [Download](https://play.google.com/store/apps/details?id=com.crossplat.ffmpegmobile) the app.
 # Features:
 
 Easy to use.
+
 Responsive and Friendly UI.
+
 Input and output commands managed by the app.
+
 Shows log of the ongoing process.
 
 # Screenshots
