@@ -1,12 +1,12 @@
 # FFmpeg
 
 Now execute FFmpeg commands on your Android smartphone.
-This app is based on MobileFFmpeg.
-Features:
-Easy to use.
-Responsive and Friendly UI.
-Input and output commands managed by the app.
-Shows log of the ongoing process.
+This app is based on MobileFFmpeg.\n
+Features:\n
+Easy to use.\n
+Responsive and Friendly UI.\n
+Input and output commands managed by the app.\n
+Shows log of the ongoing process.\n
 
 # Screenshots
 ![Screenshot_1636135030](https://user-images.githubusercontent.com/87478335/159774314-1997b0b1-4d1a-4217-9622-9452baf7290b.png)
