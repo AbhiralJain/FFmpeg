@@ -1,0 +1,41 @@
+name: ffmpegmobile
+description: A new Flutter project.
+
+version: 1.1.6+16
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^4.2.0
+  path_provider: ^2.0.6
+  permission_handler: ^8.2.5
+  flutter_ffmpeg: ^0.4.2
+  rflutter_alert: ^2.0.4
+  http: ^0.13.4
+  url_launcher: ^6.0.12
+  share_plus: ^3.0.4
+  html: ^0.15.0
+  shared_preferences: ^2.0.13
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-MediumItalic.ttf
+        - asset: fonts/Montserrat-BoldItalic.ttf
+  assets:
+    - assets/ri.png
+    - assets/wr.png
