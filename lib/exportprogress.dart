@@ -247,10 +247,10 @@ class _ExportProgressState extends State<ExportProgress> {
               style: TextStyle(color: Config.textcolor, fontFamily: 'Montserrat', fontSize: 20, fontWeight: txtw),
             ),
             Container(
-              padding: const EdgeInsets.fromLTRB(25, 0, 0, 0),
+              padding: const EdgeInsets.fromLTRB(25, 15, 0, 15),
               margin: const EdgeInsets.fromLTRB(25, 10, 25, 10),
               decoration: BoxDecoration(
-                color: Config.tilesColor,
+                color: Config.textcolor.withOpacity(0.1),
                 borderRadius: const BorderRadius.all(
                   Radius.circular(25),
                 ),
@@ -268,7 +268,6 @@ class _ExportProgressState extends State<ExportProgress> {
                   }
                 },
                 focusNode: _focus,
-                maxLength: 15,
                 textCapitalization: TextCapitalization.sentences,
                 style: TextStyle(
                   color: Config.bbcolor,

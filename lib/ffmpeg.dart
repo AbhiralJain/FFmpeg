@@ -961,7 +961,7 @@ Font config and vid.stab will be supported soon.''',
   ];
   int listlength = 1;
   getStoreversion() async {
-    String localVersion = '1.1.7';
+    String localVersion = '1.1.9';
     final uri = Uri.https("play.google.com", "/store/apps/details", {"id": "com.crossplat.ffmpegmobile"});
     final response = await http.get(uri);
     if (response.statusCode != 200) {
@@ -1336,21 +1336,13 @@ Font config and vid.stab will be supported soon.''',
               children: [
                 const Spacer(),
                 Container(
-                  padding: const EdgeInsets.all(15),
+                  padding: const EdgeInsets.fromLTRB(15, 15, 15, 10),
                   decoration: BoxDecoration(
                     color: Config.tilesColor,
                     borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(25),
                       topRight: Radius.circular(25),
                     ),
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Color.fromRGBO(200, 200, 200, 1),
-                        offset: Offset(0, -10),
-                        spreadRadius: 0,
-                        blurRadius: 15,
-                      ),
-                    ],
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -1388,7 +1380,7 @@ Font config and vid.stab will be supported soon.''',
                             Text(
                               suggestiontext,
                               style: TextStyle(
-                                color: Colors.grey.shade500,
+                                color: Config.textcolor.withOpacity(0.3),
                                 fontFamily: "Montserrat",
                                 fontWeight: FontWeight.bold,
                                 fontSize: 15,
@@ -1551,7 +1543,12 @@ Font config and vid.stab will be supported soon.''',
                           ),
                         ],
                       ),
-                      const Padding(padding: EdgeInsets.all(5)),
+                      Padding(
+                        padding: const EdgeInsets.all(5),
+                        child: (MediaQuery.of(context).viewInsets.bottom > 125)
+                            ? Divider(color: Config.textcolor.withOpacity(0.5))
+                            : null,
+                      ),
                       SizedBox(
                         child: (MediaQuery.of(context).viewInsets.bottom > 125)
                             ? Row(
