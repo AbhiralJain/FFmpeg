@@ -12,12 +12,9 @@ class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'FFmpeg Mobile',
-      theme: ThemeData(
-        primarySwatch: Colors.teal,
-      ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }

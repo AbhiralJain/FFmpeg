@@ -277,8 +277,7 @@ class _ExportProgressState extends State<ExportProgress> {
                   fontSize: 15,
                 ),
                 controller: tctrl,
-                decoration: InputDecoration(
-                  counterText: "",
+                decoration: InputDecoration.collapsed(
                   hintText: 'Enter the output file name',
                   border: InputBorder.none,
                   hintStyle: TextStyle(

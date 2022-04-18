@@ -9,7 +9,7 @@ class Config {
   static Color tilesColor = const Color.fromRGBO(255, 255, 255, 1);
   static Color textcolor = const Color.fromRGBO(50, 50, 50, 1);
   static Color bbcolor = const Color.fromRGBO(40, 45, 50, 1);
-  static Color shadowcolor = const Color.fromRGBO(200, 200, 200, 1);
+
   static changeColor(dtheme) {
     dtheme = !dtheme;
     if (dtheme) {
@@ -17,13 +17,11 @@ class Config {
       tilesColor = const Color.fromRGBO(35, 35, 35, 1);
       textcolor = const Color.fromRGBO(255, 255, 255, 1);
       bbcolor = const Color.fromRGBO(230, 225, 220, 1);
-      shadowcolor = const Color.fromRGBO(200, 200, 200, 0);
     } else {
       backgroundColor = const Color.fromRGBO(240, 235, 230, 1);
       tilesColor = const Color.fromRGBO(255, 255, 255, 1);
       textcolor = const Color.fromRGBO(50, 50, 50, 1);
       bbcolor = const Color.fromRGBO(40, 45, 50, 1);
-      shadowcolor = const Color.fromRGBO(200, 200, 200, 1);
     }
   }
 
@@ -55,7 +53,7 @@ class Config {
     return AlertStyle(
       backgroundColor: Config.tilesColor,
       alertAlignment: Alignment.center,
-      animationType: AnimationType.fromBottom,
+      animationType: AnimationType.shrink,
       isCloseButton: false,
       isOverlayTapDismiss: false,
       descStyle: TextStyle(
@@ -67,7 +65,7 @@ class Config {
       titleStyle:
           TextStyle(fontWeight: FontWeight.bold, fontSize: 20, fontFamily: 'Montserrat', color: Config.textcolor),
       descTextAlign: TextAlign.left,
-      animationDuration: const Duration(milliseconds: 200),
+      animationDuration: const Duration(milliseconds: 100),
       alertBorder: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(25.0),
       ),
