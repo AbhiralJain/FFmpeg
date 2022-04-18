@@ -1,16 +1,22 @@
-# ffmpegmobile
+# FFmpeg
 
-A new Flutter project.
+Now execute FFmpeg commands on your Android smartphone.
+This app is based on MobileFFmpeg.
 
-## Getting Started
+[Download](https://play.google.com/store/apps/details?id=com.crossplat.ffmpegmobile) the app.
+# Features:
 
-This project is a starting point for a Flutter application.
+Easy to use.
 
-A few resources to get you started if this is your first Flutter project:
+Responsive and Friendly UI.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Input and output commands managed by the app.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Shows log of the ongoing process.
+
+# Screenshots
+
+![Screenshot_1636135030](https://user-images.githubusercontent.com/87478335/159775829-ad6f5892-370b-49d0-a524-b8a8f3189aef.png)
+![Screenshot_1636135553](https://user-images.githubusercontent.com/87478335/159775844-c7a9470a-470c-4524-9289-8cae8c880878.png)
+![Screenshot_1636135564](https://user-images.githubusercontent.com/87478335/159775847-8fb9b55f-208e-4378-a4ee-4c6002b4de7d.png)
+![Screenshot_1636744707](https://user-images.githubusercontent.com/87478335/159775858-e5038b3c-d91e-47bf-a0c9-17c5b03e4500.png)
