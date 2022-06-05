@@ -59,7 +59,6 @@ class _FFmpegTerminalState extends State<FFmpegTerminal> {
     '-LATM',
     '-Point',
     '-TS',
-    '-]',
     '-aac_coder',
     '-ab',
     '-abr',
